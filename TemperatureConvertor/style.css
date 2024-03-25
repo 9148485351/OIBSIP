@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: aquamarine;
+    box-shadow: 0px 0px 15px 2px black;
+    width: 26em;
+    height: 25em;
+    border-radius: 6px;
+    padding: 30px;
+}
+.title{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: baseline;
+    gap: .2em;
+}
+.title .fa-solid{
+    font-size: 2em;
+
+}
+.Celcius ,.Farenheit ,.Kelvin{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+
+}
+input{
+    font-size: 1.5em;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    border-radius: .2em;
+    border: none;
+}
+.icons{
+    height: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0 5px;
+    line-height: 10px;
+    font-weight: 600;
+
+}
+.sub {
+    margin-top: 40px;
+    text-align: center;
+    
+}
+button{
+    padding: 10px 30px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+button:hover{
+    color: azure;
+    background-color: rgb(138, 138, 210);
+}
